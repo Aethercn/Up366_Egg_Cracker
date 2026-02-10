@@ -66,9 +66,13 @@
 
 #### 使用 Termux
 1.  打开 Termux，输入 `termux-setup-storage` 并允许权限。
-2.  进入``/storage/emulated/0/Download/2/``：
+2.  更新软件源:输入`pkg update`
+3.  安装Python：输入 `pkg install python`
+4.  确认：输入`y`
+5.  等待Python安装完成
+6.  进入``/storage/emulated/0/Download/2/``：
     ``cd /storage/emulated/0/Download/2/``
-3.  输入命令运行脚本：
+7.  输入命令运行脚本：
     `python Up366_Egg_Cracker_Android.py`
 
  #### 搞定！
