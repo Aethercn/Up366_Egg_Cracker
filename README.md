@@ -56,7 +56,7 @@
 3. 打开天学网 App，**下载**（或清除应用数据并重建`flipbook` 文件夹后重新下载）你要做的听力题。
    * *原理：只有预先创建了 `flipbook` 文件夹，App 才会将题目下载到这个可访问的目录中。*
 
-### 3. 提取答案
+### 3. 提取文件
 1. **定位题目**：在 MT管理器中进入`/Android/data/com.up366.mobile/files/flipbook/随机/随机/`，找到一个包含 `questions` 目录的文件夹（通常名为 `2`）。
 2. 把包含 `questions` 目录（通常名为 `2`）的文件夹复制到Downloads(普通目录均可)
 3. **放入脚本**：把 `Up366_Egg_Cracker.py` **复制**或**移动**到这个 `2` 文件夹内。
@@ -70,6 +70,8 @@
     ``cd /storage/emulated/0/Download/2/``
 3.  输入命令运行脚本：
     `python Up366_Egg_Cracker_Android.py`
+
+ #### 搞定！
 
 ---
 
