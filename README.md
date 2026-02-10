@@ -16,8 +16,7 @@
 
 ## 📺 视频教程
 
-[![还没录](https://github.com/user-attachments/assets/placeholder-image)](https://www.bilibili.com/video/BV1w64y127gu/)
-> **[还没录] 还没录** > *点击上方图片或 [此处链接](https://www.bilibili.com/video/BV1w64y127gu/) 跳转至 Bilibili 观看演示*
+还没录
 
 ---
 
