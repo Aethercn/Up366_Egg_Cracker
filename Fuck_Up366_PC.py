@@ -12,9 +12,9 @@ def main_process():
     root_temp = tk.Tk()
     root_temp.withdraw()
     
-    print("你先下个Reqable，再在天学网电脑客户端里配置代理，开着抓包，Ctrl+F搜fileinfo抓到的包选那个响应体，里面有个downloadUrl，就下载那个，现在是叫Pc.zip，不知道以后会不会改名。下载完了解压，里面的2文件夹随便拖到哪里都行。然后弹出的窗口中选择那个叫2的文件夹，记得解压啊！之后可能天学网会改命名，你找包含 questions 目录的文件夹")
+    print("Github")
     
-    source_path = filedialog.askdirectory(title="选择叫2文件夹或其他包含 questions 目录的文件夹")
+    source_path = filedialog.askdirectory(title="仓库地址https://github.com/Aethercn/Fuck_Up366  永久开源永久免费  倒卖...python脚本里几个字都不会改的唐人...祝倒卖狗全家糖尿病，血糖114514")
     root_temp.destroy()
     
     if not source_path:
@@ -27,7 +27,7 @@ def main_process():
         if os.path.basename(source_path).lower() == 'questions':
             questions_dir = source_path
         else:
-            print(f"\n错误：未找到 'questions' 目录！再仔细看看上面那段话\n你选择的路径: {source_path}")
+            print(f"\n错误：未找到 'questions' 目录！\n你选择的路径: {source_path}")
             input("按回车键退出")
             return
 
@@ -120,7 +120,7 @@ def main_process():
         print(f"正则提取出错: {e}")
 
     if not Outs:
-        print("\n警告：未提取到答案。请检查文件是否为加密格式(.u3enc)，这个脚本专破加密的哦哦哦哦齁齁齁齁")
+        print("\n警告：未提取到答案。请检查文件是否为加密格式(.u3enc)，这个脚本专破加密的哦")
         input("按回车键退出...")
         return
 
@@ -154,3 +154,4 @@ if __name__ == "__main__":
         traceback.print_exc()
 
         input("按回车键退出...")
+
