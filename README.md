@@ -1,4 +1,4 @@
-# 🥚 Up366 Egg Cracker (天学网听力砸蛋器)
+# 🥚 Up366 Egg Cracker (天学网听力打蛋器)
 
 **天学网/Up366 听力答案一键提取工具** 支持 **Windows** (抓包法) 和 **Android** (无需ROOT，直读法/抓包法)！
 
